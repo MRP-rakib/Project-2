@@ -1,0 +1,479 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+/* common style start */
+h1 {
+  font-size: 64px;
+  font-weight: 600;
+  color: #000000;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #000000;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+}
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+p {
+  line-height: 28px;
+  color: #00000099;
+}
+/* common style end */
+/* header start */
+header {
+  border-bottom: 1px solid #00000010;
+  padding: 40px 0;
+}
+.nav_bar {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.store_name h3 {
+  font-size: 24px;
+  font-family: "Lobster", sans-serif;
+}
+.store_name h3 span {
+  font-size: 24px;
+  font-family: "Lobster", sans-serif;
+  color: red;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.menu ul li,
+a {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 600;
+  color: #000000;
+}
+.social_media {
+  display: flex;
+  gap: 40px;
+}
+/* header end*/
+/* section japanese rice start */
+#japanese_rice {
+  padding-top: 80px;
+}
+.japanese_rice_container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+  display: flex;
+
+  gap: 32px;
+  padding-top: 48px;
+}
+
+.personal_info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-right: 1px solid #0000001a;
+}
+.personal_info h5 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.personal_info p {
+  padding-right: 58px;
+  font-size: 14px;
+}
+.time {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-right: 1px solid #0000001a;
+}
+.time p {
+  padding-right: 58px;
+  font-size: 12px;
+}
+.chicken {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.chicken p {
+  font-size: 12px;
+}
+.btn {
+  display: flex;
+  text-align: center;
+  gap: 32px;
+  padding-top: 48px;
+}
+.btn p {
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 16px;
+}
+.btn1,
+.btn2 {
+  padding: 28px 28px;
+  border: none;
+  border-radius: 50%;
+  font-size: 16px;
+  background: #e7fafe;
+  cursor: pointer;
+}
+.japanese_rice_container2 {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  padding-top: 64px;
+}
+.container_right {
+  width: 400px;
+  background-color: #e7fafe;
+  padding-top: 32px;
+  border-radius: 30px;
+}
+.container_right table,
+.container_right h3 {
+  padding-left: 32px;
+}
+.container_right table tr {
+  display: flex;
+  justify-content: space-between;
+  gap: 174px;
+  border-bottom: 1px solid #0000001a;
+}
+.container_right table tr td {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.container_right table tr th {
+  border: none;
+}
+.container_right p {
+  width: 326px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 167px;
+}
+#japanese_rice .peragraph {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+/* section japanese rice end */
+/* section ingredients start */
+.ingredients_container {
+  max-width: 1280px;
+  margin: 0 auto;
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 80px;
+}
+.ingredients_container1 {
+  width: 60%;
+  
+}
+.ingredients_container1 h3 {
+  padding-top: 48px;
+  padding-bottom: 33px;
+}
+.ingredients_container1_item .checkbox {
+  border-top: 1px solid #0000001a;
+  border-bottom: 1px solid #0000001a;
+  padding: 33px 24px;
+  
+}
+.ingredients_container1_item label{
+  padding-left: 16px;
+
+}
+input[type="checkbox"]{
+  width: 24px;
+  height: 24px;
+  appearance: none;
+  cursor: pointer;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  
+}
+input[type="checkbox"]:checked{
+  background-color: #000000;
+  border: 2px solid #000000;
+}
+input[type="checkbox"]:checked::after{
+  content: '';
+  /* background-color: white; */
+  display: block;
+  width: 5px;
+  height: 10px;
+  border: 4px solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  position: relative;
+  left: 7.5px;
+  top: 3.5px;
+}
+.ingredients_container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.ingredients_container2 h2 {
+  font-size: 32px;
+}
+.ingredients_container2_item {
+  display: flex;
+  gap: 24px;
+  padding-top: 32px;
+  cursor: pointer;
+  
+}
+.ingredients_container2_item img{
+  border-radius: 20px;
+}
+.ingredients_container2_item h4 {
+  width: 196px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/* section ingredients end */
+/* section directions start */
+.directions_container{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 13px;
+}
+.directons_1{
+  width: 840px;
+  padding-top: 32px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #0000001A;
+  
+}
+.directons_1 p{
+  padding-top: 24px;
+  padding-left: 24px;
+}
+.directons_1 img{
+  padding-top: 48px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+}
+.directons_1 label{
+  font-weight: 600;
+  font-size: 24px;
+  padding-left: 12px;
+}
+.directons_2{
+  width: 840px;
+  padding-top: 48px;
+  border-bottom: 1px solid #0000001A;
+  
+}
+.directons_2 label{
+  font-weight: 600;
+  font-size: 24px;
+  padding-left: 12px;
+}
+.directons_2 p{
+  padding-top: 24px;
+  padding-bottom: 48px;
+  padding-left: 24px;
+}
+/* section directions end */
+/* section inbox start */
+#inbox{
+  padding-top: 160px;
+}
+.inbox_text{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #E7F9FD;
+  border-radius: 60px;
+  overflow: hidden;
+  position: relative;
+  
+}
+.inbox_text h2{
+padding-top: 80px;
+}
+.inbox_text p{
+padding-top: 24px;
+width: 620px;
+text-align: center;
+}
+.Subscribe{
+  padding-top: 64px;
+  padding-bottom: 80px;
+  position: relative;
+}
+.Subscribe input{
+  width: 480px;
+  padding: 31px 32px;
+  border: none;
+  outline: none;
+  border-radius: 24px;
+  
+  
+}
+.Subscribe .btn5{
+  padding: 21px 47px;
+  border: none;
+  border-radius: 16px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  right: 10px;
+  top: 74px;
+  cursor: pointer;
+  
+}
+.salad{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  
+}
+.plate{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+/* section inbox end */
+/* section like recipe start */
+#delicious_recipes {
+  padding-top: 160px;
+}
+.delicious_recipes_text{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.delicious_recipes_text h2{
+  width: 500px;
+  margin: 0 auto;
+  font-size: 36px;
+  text-align: center;
+}
+/* .delicious_recipes_text p{
+  width: 620px;
+} */
+.delicious_recipes_container{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-top: 80px;
+}
+.delicious_item{
+  width: calc(25% - 40px);
+  cursor: pointer;
+  position: relative;
+}
+.delicious_item .reaction{
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  z-index: 1;
+}
+.delicious_item img{
+  width: 100%;
+  border-radius: 20px;
+  padding-bottom: 16px;
+  overflow: hidden;
+}
+.delicious_time{
+  display: flex;
+  gap: 24px;
+  padding-top: 24px;
+}
+.delicious_time1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* section like recipe end */
+/* section footer nav start */
+#footer_nav{
+  padding-top: 160px;
+}
+.nav_bar2 {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.store_name2 h3 {
+  font-size: 24px;
+  font-family: "Lobster", sans-serif;
+  
+}
+.store_name2 h3 span {
+  font-size: 24px;
+  font-family: "Lobster", sans-serif;
+  color: red;
+}
+.store_name2 p{
+  padding-top: 16px;
+}
+.menu2 ul {
+  display: flex;
+  align-items: end;
+  gap: 60px;
+}
+.menu2 ul li,
+a {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 600;
+  color: #000000;
+}
+footer{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ padding: 48px 0 48px 472px;
+  border-top: 1px solid #0000001A;
+  
+}
+footer span{
+  color: #ff8a7a;
+}
+/* section footer nav end */

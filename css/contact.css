@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+/* common style start */
+h1 {
+  font-size: 64px;
+  font-weight: 600;
+  color: #000000;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #000000;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+}
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+p {
+  line-height: 28px;
+  color: #00000099;
+}
+/* common style end */
+/* header start */
+header {
+  border-bottom: 1px solid #00000010;
+  padding: 40px 0;
+}
+.nav_bar {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.store_name h3 {
+  font-size: 24px;
+  font-family: "Lobster", sans-serif;
+}
+.store_name h3 span {
+  font-size: 24px;
+  font-family: "Lobster", sans-serif;
+  color: red;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.menu ul li,
+a {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 600;
+  color: #000000;
+}
+.social_media {
+  display: flex;
+  gap: 40px;
+}
+/* header end*/
+/* section contact us start */
+.contact_us_text{
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 84px;
+}
+.contact_us_contaienr{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    padding-top: 72px;
+    /* align-items: center; */
+
+   
+}
+.contact_us_images{
+    width: 400px;
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+text-align: center;
+border-radius: 30px;
+
+}
+
+.flex{
+    display: flex;
+    gap: 40px;
+    
+    
+}
+.lain{
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 12px; */
+    gap: 12px;
+    padding-bottom: 24px;
+}
+.lain input{
+    width: 400px;
+    padding: 18px 20px;
+    border: 1px solid #0000001A;
+    /* border: none; */
+    border-radius: 16px;
+}
+.lain1 input{
+ 
+}
+.lain1 textarea{
+    padding: 20px 20px;
+    height: 200px;
+    width: 840px;
+    /* padding: 18px 20px; */
+    border: 1px solid #0000001A;
+    border-radius: 16px;
+    
+}
+/* section contact us end */
+/* section inbox start */
+#inbox{
+    padding-top: 160px;
+  }
+  .inbox_text{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E7F9FD;
+    border-radius: 60px;
+    overflow: hidden;
+    position: relative;
+    
+  }
+  .inbox_text h2{
+  padding-top: 80px;
+  }
+  .inbox_text p{
+  padding-top: 24px;
+  width: 620px;
+  text-align: center;
+  }
+  .Subscribe{
+    padding-top: 64px;
+    padding-bottom: 80px;
+    position: relative;
+  }
+  .Subscribe input{
+    width: 480px;
+    padding: 31px 32px;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    
+    
+  }
+  .Subscribe .btn5{
+    padding: 21px 47px;
+    border: none;
+    border-radius: 16px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    right: 10px;
+    top: 74px;
+    cursor: pointer;
+    
+  }
+  .salad{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+  }
+  .plate{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  /* section inbox end */
+  /* section like recipe start */
+  #delicious_recipes {
+    padding-top: 160px;
+  }
+  .delicious_recipes_text{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .delicious_recipes_text h2{
+    width: 500px;
+    margin: 0 auto;
+    font-size: 36px;
+    text-align: center;
+  }
+  /* .delicious_recipes_text p{
+    width: 620px;
+  } */
+  .delicious_recipes_container{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-top: 80px;
+  }
+  .delicious_item{
+    width: calc(25% - 40px);
+    cursor: pointer;
+    position: relative;
+  }
+  .delicious_item .reaction{
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    z-index: 1;
+  }
+  .delicious_item img{
+    width: 100%;
+    border-radius: 20px;
+    padding-bottom: 16px;
+    overflow: hidden;
+  }
+  .delicious_time{
+    display: flex;
+    gap: 24px;
+    padding-top: 24px;
+  }
+  .delicious_time1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  /* section like recipe end */
+  /* section footer nav start */
+  #footer_nav{
+    padding-top: 160px;
+  }
+  .nav_bar2 {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .store_name2 h3 {
+    font-size: 24px;
+    font-family: "Lobster", sans-serif;
+    
+  }
+  .store_name2 h3 span {
+    font-size: 24px;
+    font-family: "Lobster", sans-serif;
+    color: red;
+  }
+  .store_name2 p{
+    padding-top: 16px;
+  }
+  .menu2 ul {
+    display: flex;
+    align-items: end;
+    gap: 60px;
+  }
+  .menu2 ul li,
+  a {
+    text-decoration: none;
+    list-style: none;
+    font-weight: 600;
+    color: #000000;
+  }
+  footer{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 48px 0 48px 472px;
+    border-top: 1px solid #0000001A;
+    
+  }
+  footer span{
+    color: #ff8a7a;
+  }
+  /* section footer nav end */
